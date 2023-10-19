@@ -15,7 +15,7 @@ export const shazamCoreApi = createApi({
     return {
       getTopCharts: builder.query({
         query: () =>
-          "/charts/get-top-songs-in_world_by_genre?genre=POP&limit=10",
+          "/charts/get-top-songs-in_world_by_genre?genre=POP&limit=20",
       }),
     };
   },
