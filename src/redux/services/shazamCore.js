@@ -43,12 +43,17 @@ export const shazamCoreApi = createApi({
         query: (countryCode) => `/charts/get-top-songs-in-country?country_code=${countryCode}&limit=10`,
       }),
 
+      getSongsBySearch: builder.query({
+        query: (searchTerm) => `/search?term=${searchTerm}&limit=10`,
+      }),
+
     };
   },
 });
 
 export const {
   useGetTopChartsQuery,
+  useGetSongsBySearchQuery,
   useGetTopChartsByGenreQuery,
   useGetSongDetailsQuery,
   useGetSongRelatedQuery,
