@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
+import { altLogo } from '../assets';
 
 
 import PlayPause from './PlayPause';
 import { playPause, setActiveSong } from '../redux/features/playerSlice';
 
 const SongCard = ({ song, isPlaying, activeSong, data, i }) => {
-  const altLink = 'https://www.thermaxglobal.com/wp-content/uploads/2020/05/image-not-found.jpg';
   
   const dispatch = useDispatch();
 
@@ -20,7 +20,6 @@ const SongCard = ({ song, isPlaying, activeSong, data, i }) => {
     dispatch(playPause(true));
   };
 
-  console.log(song);
 
   return (
     <div className="flex flex-col w-[250px] p-4 bg-white/5 bg-opacity-80 backdrop-blur-sm animate-slideup rounded-lg cursor-pointer">
@@ -34,18 +33,18 @@ const SongCard = ({ song, isPlaying, activeSong, data, i }) => {
             handlePlay={handlePlayClick}
           />
         </div>
-        <img alt="song_img" src={song.images?.coverart || altLink} className="w-full h-full rounded-lg" />
+        <img alt="song_img" src={song.images?.coverart || altLogo} className="w-full h-full rounded-lg" />
       </div>
 
       <div className="mt-4 flex flex-col">
         <p className="font-semibold text-lg text-white truncate">
           <Link to={`/songs/${song?.key}`}>
-            {song.title || song.artists[0].alias }
+            {song.title || song.heading.title }
           </Link>
         </p>
         <p className="text-sm truncate text-gray-300 mt-1">
           <Link to={song.artists ? `/artists/${song?.artists[0]?.adamid}` : '/top-artists'}>
-            {song.subtitle}
+            {song.subtitle || song.heading.subtitle}
           </Link>
         </p>
       </div>
