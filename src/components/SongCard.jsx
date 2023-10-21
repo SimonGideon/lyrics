@@ -2,10 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 
+
 import PlayPause from './PlayPause';
 import { playPause, setActiveSong } from '../redux/features/playerSlice';
 
 const SongCard = ({ song, isPlaying, activeSong, data, i }) => {
+  const altLink = 'https://www.thermaxglobal.com/wp-content/uploads/2020/05/image-not-found.jpg';
+  
   const dispatch = useDispatch();
 
   const handlePauseClick = () => {
@@ -29,7 +32,7 @@ const SongCard = ({ song, isPlaying, activeSong, data, i }) => {
             handlePlay={handlePlayClick}
           />
         </div>
-        <img alt="song_img" src={song.images?.coverart} className="w-full h-full rounded-lg" />
+        <img alt="song_img" src={song.images?.coverart || altLink} className="w-full h-full rounded-lg" />
       </div>
 
       <div className="mt-4 flex flex-col">
