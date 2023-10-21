@@ -11,9 +11,7 @@ const CountryTracks = () => {
   const { data, isFetching, error } = useGetSongByCountryQuery(country);
   useEffect(() => {
     axios
-      .get(
-        `https://geo.ipify.org/api/v2/country?apiKey=at_${VITE_GEO_API_KEY}`
-      )
+      .get(`https://geo.ipify.org/api/v2/country?apiKey=at_${VITE_GEO_API_KEY}`)
       .then((res) => setCountry(res?.data?.location?.country))
       .catch((err) => console.log(err))
       .finally(() => setLoading(false));
