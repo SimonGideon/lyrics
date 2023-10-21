@@ -5,7 +5,7 @@ import TopPlay from './TopPlay';
 import ArtistCard from './ArtistCard';
 import DetailsHeader from './DetailsHeader';
 import SongBar from './SongBar';
-import RelatedSongs from './RelatedSongs';
+import { RelatedSongs, ArtistRelatedSongs } from './RelatedSongs';
 import MusicPlayer from './MusicPlayer';
 import Loader from './Loader';
 import Error from './Error';
@@ -22,4 +22,5 @@ export {
   MusicPlayer,
   Loader,
   Error,
+  ArtistRelatedSongs,
 };
