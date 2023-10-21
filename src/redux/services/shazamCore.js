@@ -7,7 +7,7 @@ export const shazamCoreApi = createApi({
     prepareHeaders: (headers) => {
       headers.set(
         "X-RapidAPI-Key",
-        "f3a396e497msh9a666158f942436p19faffjsn3039d6166143"
+        import.meta.env.VITE_SHAZAM_API_KEY
       );
       return headers;
     },
@@ -19,6 +19,11 @@ export const shazamCoreApi = createApi({
         query: () =>
           "/charts/get-top-songs-in_world_by_genre?genre=POP&limit=20",
       }),
+
+      getTopChartsByGenre: builder.query({
+        query: (genreListId) => `/charts/get-top-songs-in_world_by_genre?genre=${genreListId}&limit=20`,
+      }),
+
       getSongDetails: builder.query({
         query: ({ songid }) => `/songs/get_details?id=${songid}`,
       }),
@@ -34,14 +39,25 @@ export const shazamCoreApi = createApi({
         query: (artistId) => `/artist/get-top-songs?id=${artistId}`,
       }),
 
+      getSongByCountry: builder.query({
+        query: (countryCode) => `/charts/get-top-songs-in-country?country_code=${countryCode}&limit=10`,
+      }),
+
+      getSongsBySearch: builder.query({
+        query: (searchTerm) => `/search?term=${searchTerm}&limit=10`,
+      }),
+
     };
   },
 });
 
 export const {
   useGetTopChartsQuery,
+  useGetSongsBySearchQuery,
+  useGetTopChartsByGenreQuery,
   useGetSongDetailsQuery,
   useGetSongRelatedQuery,
   useGetArtistDetailsQuery,
   useGetTopArtistSongsQuery,
+  useGetSongByCountryQuery,
 } = shazamCoreApi;
