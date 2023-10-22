@@ -7,7 +7,7 @@ export const shazamCoreApi = createApi({
     prepareHeaders: (headers) => {
       headers.set(
         "X-RapidAPI-Key",
-        import.meta.env.VITE_SHAZAM_API_KEY
+        import.meta.env.VITE_API_KEY,
       );
       return headers;
     },
@@ -21,7 +21,8 @@ export const shazamCoreApi = createApi({
       }),
 
       getTopChartsByGenre: builder.query({
-        query: (genreListId) => `/charts/get-top-songs-in_world_by_genre?genre=${genreListId}&limit=20`,
+        query: (genreListId) =>
+          `/charts/get-top-songs-in_world_by_genre?genre=${genreListId}&limit=20`,
       }),
 
       getSongDetails: builder.query({
@@ -40,13 +41,13 @@ export const shazamCoreApi = createApi({
       }),
 
       getSongByCountry: builder.query({
-        query: (countryCode) => `/charts/get-top-songs-in-country?country_code=${countryCode}&limit=10`,
+        query: (countryCode) =>
+          `/charts/get-top-songs-in-country?country_code=${countryCode}&limit=10`,
       }),
 
       getSongsBySearch: builder.query({
         query: (searchTerm) => `/search?term=${searchTerm}&limit=10`,
       }),
-
     };
   },
 });
