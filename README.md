@@ -1,136 +1,238 @@
-# Project Lyrics
-
-Develop an elegant React.js Music Application. 
-
-Check out the complete project requirements [here](https://docs.google.com/document/d/13PeFwRlPEhMw_HPyrIrInvQuKaVWnpNmcv-y3NA208s/edit?usp=sharing)
-
-# Contributing
-
-When contributing to this repository, please first discuss the change you wish to make via issue.
-Please note we have a [code of conduct](CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
+<a name="readme-top"></a>
 
 
-## System Requirements
+<div align="center">
+  <br/>
 
-To get started with development, you need to install few tools
+  <h3><b>PROJECT README</b></h3>
 
-1. git 
-   
-   `git` version 2.13.1 or higher. Download [git](https://git-scm.com/downloads) if you don't have it already.
+</div>
 
-   To check your version of git, run:
+<!-- TABLE OF CONTENTS -->
 
-   ```shell
-    git --version
-   ```
+# 📗 Table of Contents
 
-2. node 
-   
-   `node` version 16.15.1 or higher. Download [node](https://nodejs.org/en/download/) if you don't have it already.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-   To check your version of node, run:
+<!-- PROJECT DESCRIPTION -->
 
-   ```shell
-    node --version
-   ```
+# 📖 [your_project_name] <a name="about-project"></a>
 
-3. npm
-  
-   `npm` version 5.6.1 or higher. You will have it after you install node.
+**[your_project__name]** is a...
 
-   To check your version of npm, run:
+## 🛠 Built With <a name="built-with"></a>
 
-   ```shell
-    npm --version
-   ```
+### Tech Stack <a name="tech-stack"></a>
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
 
-## Setup
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
 
-To set up a development environment, please follow these steps:
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
 
-1. Clone the repo
+<!-- Features -->
 
-   ```shell
-    git clone https://github.com/JavaScript-Mastery-PRO/project1_team4_repository.git
-   ```
+### Key Features <a name="key-features"></a>
 
-2. Change directory to the project directory
+- **[key_feature_1]**
+- **[key_feature_2]**
+- **[key_feature_3]**
 
-    ```shell
-    cd project1_team4_repository
-    ```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-3. Install the dependencies
-   
-    ```shell
-     npm install
-    ```
+<!-- LIVE DEMO -->
 
-    If you get an error, please check the console for more information.
+## 🚀 Live Demo <a name="live-demo"></a>
 
-    If you don't get an error, you are ready to start development.
+> Add a link to your deployed project.
 
-4. Run the app
-   
-    ```shell
-    npm run dev
-    ```
+- [Live Demo Link](https://google.com)
 
-    Project will be running in the browser.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-    Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- GETTING STARTED -->
 
-## Issues
+## 💻 Getting Started <a name="getting-started"></a>
+To get a local copy up and running, follow these steps.
 
-You've found a bug in the source code, a mistake in the documentation or maybe you'd like a new feature? You can help us by [submitting an issue on GitHub](https://github.com/orgs/JavaScript-Mastery-PRO/projects/8). Before you create an issue, make sure to search the issue archive -- your issue may have already been addressed!
+### Prerequisites
 
-Please try to create bug reports that are:
+In order to run this project you need:
 
-- _Reproducible._ Include steps to reproduce the problem.
-- _Specific._ Include as much detail as possible: which version, what environment, etc.
-- _Unique._ Do not duplicate existing opened issues.
-- _Scoped to a Single Bug._ One bug per report.
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+ -->
+
+### Setup
+
+Clone this repository to your desired folder:
+
+<!--
+Example commands:
+
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
+```
+--->
+
+### Install
+
+Install this project with:
+
+<!--
+Example command:
+
+```sh
+  cd my-project
+  gem install
+```
+--->
+
+### Usage
+
+To run the project, execute the following command:
+
+<!--
+Example command:
+
+```sh
+  rails server
+```
+--->
+
+### Run tests
+
+To run tests, run the following command:
+
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
+
+### Deployment
+
+You can deploy this project using:
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+> Mention all of the collaborators of this project.
+
+👤 **Simon Gideon**
+
+- GitHub: [@SimonGideon](https://github.com/SimonGideon)
+- Twitter: [@Simo_Giddy](https://twitter.com/Simo_Giddy)
+- LinkedIn: [mnayi-gideon](https://linkedin.com/in/mnayi-gideon)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[new_feature_1]**
+- [ ] **[new_feature_2]**
+- [ ] **[new_feature_3]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-## Pull Request
+I would like to thank...
 
-There are 2 main work flows when dealing with pull requests:
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-* Pull Request from a [forked repository](https://help.github.com/articles/fork-a-repo)
-* Pull Request from a branch within a repository
+<!-- FAQ (optional) -->
 
-Here we are going to focus on 2. Creating a Topical Branch:
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
 
-1. First, we will need to create a branch from the latest commit on master. Make sure your repository is up to date first using
+- **[Question_1]**
 
-   ```bash
-    git pull origin main
-   ```
+  - [Answer_1]
 
-   *Note:* `git pull` does a `git fetch` followed by a `git merge` to update the local repo with the remote repo. For a more detailed explanation, see [this stackoverflow post](http://stackoverflow.com/questions/292357/whats-the-difference-between-git-pull-and-git-fetch).
+- **[Question_2]**
 
-2. To create a branch, use `git checkout -b <new-branch-name> [<base-branch-name>]`, where `base-branch-name` is optional and defaults to `main`. 
-   
-   Use a standard convention for branch names. For example, `<your-name>-dev`. It will be easier to track your pull requests if you use this convention.
-   
-   I'm going to create a new branch called `jsm-dev` from the `main` branch and push it to github.
+  - [Answer_2]
 
-   ```bash
-    git checkout -b jsm-dev main
-    git push origin jsm-dev
-   ```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-3. To create a pull request, you must have changes committed to your new branch.
+<!-- LICENSE -->
 
-4. Go to [Pull Requests](https://github.com/JavaScript-Mastery-PRO/project1_team4_repository/pulls) and click on the `New Pull Request` button.
+## 📝 License <a name="license"></a>
 
-5. Select the `main` branch as the `base` branch and the `jsm-dev` branch as the `compare` branch.
+This project is [MIT](./LICENSE) licensed.
 
-6. Follow the template and fill in the proper information for the pull request.
-
-7. Click on the `Submit` button.
-
-8. You have successfully created a pull request. Now wait for mentor approval. Once approved, you can merge the pull request.
-
-#
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
