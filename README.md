@@ -32,7 +32,7 @@
 
 # 📖 [your_project_name] <a name="about-project"></a>
 
-**[My Music App]** is a online music player that allows you to play music from Spotify for free.
+**[My Music App]** is an online music player that allows you to play music from Spotify for free.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -123,8 +123,6 @@ To run the project, execute the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Simon Gideon**
 
 - GitHub: [@SimonGideon](https://github.com/SimonGideon)
@@ -137,9 +135,9 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Create Que]**
-- [ ] **[Give sugestion according to serches]**
-- [ ] **[Accont management]**
+- [ ] **Create Que**
+- [ ] **Give suggestions according to searches**
+- [ ] **Accont management**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
