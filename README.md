@@ -30,9 +30,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 My Music App <a name="about-project"></a>
 
-**[My Music App]** is an online music player that allows you to play music from Spotify for free.
+**My Music App** is an online music player that allows you to play music from Spotify for free.
 
 ## 🛠 Built With <a name="built-with"></a>
 
