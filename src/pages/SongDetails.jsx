@@ -16,7 +16,6 @@ const SongDetails = () => {
 
   if (isFetchingSongDetails && isFetchinRelatedSongs) return <Loader title="Searching song details" />;
 
-
   if (error) return <Error />;
 
   const handlePauseClick = () => {
