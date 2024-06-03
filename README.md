@@ -66,6 +66,18 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 [Click Me ](https://sg-lyriks.netlify.app/)
+## Video Demo
+
+
+https://github.com/SimonGideon/lyrics/assets/61404403/2c58380e-235c-4386-9a63-1453db671b92
+
+
+
+Click on the image above to watch the video.
+
+## Alternative Link to Video
+
+[Watch the video on Vimeo](https://vimeo.com/898307547)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
