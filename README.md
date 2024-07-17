@@ -65,6 +65,8 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+![sound-on-sonido](https://github.com/user-attachments/assets/0215608c-043a-4347-8fae-8ec1db2abc09)
+
 [Click Me ](https://sg-lyriks.netlify.app/)
 ## Video Demo
 
